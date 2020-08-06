@@ -26,11 +26,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guess-the-number" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.QueueExercise">
-    <configuration name="FilterTest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Assessment01PartA">
+    <configuration name="Assessment01PartA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -42,7 +42,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FilterTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assessment01PartA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Assessment01PartA" />
         <item itemvalue="Python.QueueExercise" />
         <item itemvalue="Python.StackTest" />
         <item itemvalue="Python.QueueTest" />
         <item itemvalue="Python.ListTest (1)" />
-        <item itemvalue="Python.FilterTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,26 +167,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596682529569" />
-    <state x="278" y="278" key="FileChooserDialogImpl" timestamp="1596680835926">
+    <state x="278" y="278" key="FileChooserDialogImpl" timestamp="1596697152768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="278" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596680835926" />
-    <state width="1132" height="285" key="GridCell.Tab.0.bottom" timestamp="1596694589599">
+    <state x="278" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596697152768" />
+    <state width="1133" height="194" key="GridCell.Tab.0.bottom" timestamp="1596707902299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1132" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596694589599" />
-    <state width="1132" height="285" key="GridCell.Tab.0.center" timestamp="1596694589599">
+    <state width="1133" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902299" />
+    <state width="1133" height="194" key="GridCell.Tab.0.center" timestamp="1596707902299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1132" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596694589599" />
-    <state width="1132" height="285" key="GridCell.Tab.0.left" timestamp="1596694589599">
+    <state width="1133" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902299" />
+    <state width="1133" height="194" key="GridCell.Tab.0.left" timestamp="1596707902298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1132" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596694589599" />
-    <state width="1132" height="285" key="GridCell.Tab.0.right" timestamp="1596694589599">
+    <state width="1133" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902298" />
+    <state width="1133" height="194" key="GridCell.Tab.0.right" timestamp="1596707902299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1132" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596694589599" />
+    <state width="1133" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902299" />
     <state x="0" y="166" key="SettingsEditor" timestamp="1596680849033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,5 +195,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596680338556" />
+    <state x="241" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1596699342568">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="241" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596699342568" />
   </component>
 </project>
