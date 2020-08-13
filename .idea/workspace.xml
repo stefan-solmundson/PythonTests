@@ -29,7 +29,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../guess-the-number" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Assessment01PartA">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest\app" />
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest\test" />
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in StackTest">
     <configuration name="Assessment01PartA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ListTest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ListTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StackTest/app/stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,76 +79,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QueueExercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in StackTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QueueExercise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/StackTest&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="QueueTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QueueTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/StackTest/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="StackTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_stack.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StackTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/StackTest/test/test_stack.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in StackTest" />
+        <item itemvalue="Python tests.Unittests in test" />
+        <item itemvalue="Python tests.Unittests in test_stack.py" />
+        <item itemvalue="Python.stack" />
         <item itemvalue="Python.Assessment01PartA" />
-        <item itemvalue="Python.QueueExercise" />
-        <item itemvalue="Python.StackTest" />
-        <item itemvalue="Python.QueueTest" />
-        <item itemvalue="Python.ListTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,38 +149,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596689416559" />
-    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596682529569">
+    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597283634236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596682529569" />
+    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597283634236" />
     <state x="278" y="278" key="FileChooserDialogImpl" timestamp="1596697152768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596697152768" />
-    <state width="1133" height="194" key="GridCell.Tab.0.bottom" timestamp="1596707902299">
+    <state width="1133" height="194" key="GridCell.Tab.0.bottom" timestamp="1597284302945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902299" />
-    <state width="1133" height="194" key="GridCell.Tab.0.center" timestamp="1596707902299">
+    <state width="1133" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
+    <state width="1133" height="194" key="GridCell.Tab.0.center" timestamp="1597284302945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902299" />
-    <state width="1133" height="194" key="GridCell.Tab.0.left" timestamp="1596707902298">
+    <state width="1133" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
+    <state width="1133" height="194" key="GridCell.Tab.0.left" timestamp="1597284302945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902298" />
-    <state width="1133" height="194" key="GridCell.Tab.0.right" timestamp="1596707902299">
+    <state width="1133" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
+    <state width="1133" height="194" key="GridCell.Tab.0.right" timestamp="1597284302945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596707902299" />
+    <state width="1133" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
     <state x="0" y="166" key="SettingsEditor" timestamp="1596680849033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596680849033" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1596680338556">
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1597281396924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596680338556" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597281396924" />
     <state x="241" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1596699342568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
