@@ -36,8 +36,8 @@
       <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in StackTest">
-    <configuration name="Assessment01PartA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in stack_tests">
+    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assessment01PartA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="queue_exercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest/app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StackTest/app/stack.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\20004338\PycharmProjects\PythonTests\queue_exercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,17 +79,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in StackTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="stack_notes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonExamples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\20004338\PycharmProjects\PythonTests\stack_notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in stack_tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/StackTest&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/stack_tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -98,36 +119,22 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_tests/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/StackTest/test&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_stack.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PythonExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StackTest/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/StackTest/test/test_stack.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/stack_tests/test&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in StackTest" />
+        <item itemvalue="Python tests.Unittests in stack_tests" />
+        <item itemvalue="Python.queue_exercise" />
+        <item itemvalue="Python.binary_tree" />
+        <item itemvalue="Python.stack_notes" />
         <item itemvalue="Python tests.Unittests in test" />
-        <item itemvalue="Python tests.Unittests in test_stack.py" />
-        <item itemvalue="Python.stack" />
-        <item itemvalue="Python.Assessment01PartA" />
       </list>
     </recent_temporary>
   </component>
@@ -157,22 +164,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596697152768" />
-    <state width="1133" height="194" key="GridCell.Tab.0.bottom" timestamp="1597284302945">
+    <state width="1291" height="194" key="GridCell.Tab.0.bottom" timestamp="1597294683535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
-    <state width="1133" height="194" key="GridCell.Tab.0.center" timestamp="1597284302945">
+    <state width="1291" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
+    <state width="1291" height="194" key="GridCell.Tab.0.center" timestamp="1597294683535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
-    <state width="1133" height="194" key="GridCell.Tab.0.left" timestamp="1597284302945">
+    <state width="1291" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
+    <state width="1291" height="194" key="GridCell.Tab.0.left" timestamp="1597294683535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
-    <state width="1133" height="194" key="GridCell.Tab.0.right" timestamp="1597284302945">
+    <state width="1291" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
+    <state width="1291" height="194" key="GridCell.Tab.0.right" timestamp="1597294683535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1133" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597284302945" />
+    <state width="1291" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
     <state x="0" y="166" key="SettingsEditor" timestamp="1596680849033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

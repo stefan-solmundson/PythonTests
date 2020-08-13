@@ -24,7 +24,7 @@ class Queue:
 
     def __init__(self, queue_size=10, input_list=[]):
         self.queue_size = queue_size
-        self.list = input_list[0:9]
+        self.list = input_list[0:queue_size-1]
 
     def front(self):
         return self.list[0]
