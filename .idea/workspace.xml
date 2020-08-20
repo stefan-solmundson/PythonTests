@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/linked_list_neighbours" />
   </component>
   <component name="ProjectId" id="1fhplZslDTwev7Ej1qV5wHkgKcs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,18 +25,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guess-the-number" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/binary-tree/app" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree\app" />
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\animal-game\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\animal_game" />
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree\app" />
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree" />
+      <recent name="C:\Users\20004338\PycharmProjects\PythonTests" />
       <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest\app" />
-      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest\test" />
-      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.binary_tree">
-    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,11 +50,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary-tree/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_tree.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree\app\__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -57,7 +63,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="queue_exercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="execute (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary-tree/bin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\20004338\PycharmProjects\PythonTests\queue_exercise.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary-tree/bin/execute.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stack_notes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="execute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary-tree/bin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\20004338\PycharmProjects\PythonTests\stack_notes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary-tree/bin/execute" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,41 +105,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in stack_tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary-tree/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/stack_tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary-tree/app/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack_tests/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linked_list_neighbours/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/stack_tests/test&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linked_list_neighbours/app/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonExamples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary-tree/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree\app\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonExamples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary-tree/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree\app\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.binary_tree" />
-        <item itemvalue="Python tests.Unittests in stack_tests" />
-        <item itemvalue="Python.queue_exercise" />
-        <item itemvalue="Python.stack_notes" />
-        <item itemvalue="Python tests.Unittests in test" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.execute (1)" />
+        <item itemvalue="Python.execute" />
+        <item itemvalue="Python.__main__ (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,14 +213,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="982" y="134" key="#binary_tree" timestamp="1597376182521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="982" y="134" key="#binary_tree/0.0.1920.1040@0.0.1920.1040" timestamp="1597376182521" />
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596689416559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596689416559" />
-    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597283634236">
+    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597893422623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597283634236" />
+    <state x="237" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597893422623" />
     <state x="278" y="278" key="FileChooserDialogImpl" timestamp="1596697152768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,25 +245,25 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1876" height="362" key="GridCell.Tab.-1.right/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597338933121" />
-    <state width="1876" height="229" key="GridCell.Tab.0.bottom" timestamp="1597341596640">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1592" height="424" key="GridCell.Tab.0.bottom" timestamp="1597897156198">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1291" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
+    <state width="1592" height="424" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597897156198" />
     <state width="1876" height="229" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
-    <state width="1876" height="229" key="GridCell.Tab.0.center" timestamp="1597341596640">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1592" height="424" key="GridCell.Tab.0.center" timestamp="1597897156198">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1291" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
+    <state width="1592" height="424" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597897156198" />
     <state width="1876" height="229" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
-    <state width="1876" height="229" key="GridCell.Tab.0.left" timestamp="1597341596640">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1592" height="424" key="GridCell.Tab.0.left" timestamp="1597897156198">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1291" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
+    <state width="1592" height="424" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597897156198" />
     <state width="1876" height="229" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
-    <state width="1876" height="229" key="GridCell.Tab.0.right" timestamp="1597341596640">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1592" height="424" key="GridCell.Tab.0.right" timestamp="1597897156198">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1291" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597294683535" />
+    <state width="1592" height="424" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597897156198" />
     <state width="1876" height="229" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
     <state width="1876" height="362" key="GridCell.Tab.1.bottom" timestamp="1597338913694">
       <screen x="0" y="0" width="2560" height="1080" />
@@ -215,15 +281,15 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1876" height="362" key="GridCell.Tab.1.right/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597338913694" />
-    <state x="699" y="135" key="SettingsEditor" timestamp="1597336357326">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state x="0" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596680849033" />
-    <state x="699" y="135" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597336357326" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1597281396924">
+    <state x="215" y="129" key="SettingsEditor" timestamp="1597891489138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597281396924" />
+    <state x="215" y="129" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597891489138" />
+    <state x="699" y="135" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597336357326" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1597886452078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597886452078" />
     <state x="321" y="239" width="896" height="705" key="search.everywhere.popup" timestamp="1597334471937">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -233,11 +299,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/binary_tree.py</url>
-          <line>110</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/binary_tree.py</url>
           <line>320</line>

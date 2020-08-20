@@ -3,5 +3,11 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PythonTests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/animal-game" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/animal_game" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/animal_game/animal-game" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/animal_game/binary-tree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/binary-tree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/linked_list_neighbours" vcs="Git" />
   </component>
 </project>
