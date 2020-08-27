@@ -1,7 +1,7 @@
-from double_linked_list_neighbours.app.neighbour_node import NeighbourNode
+from double_linked_list_neighbours.app.doubly_linked_node import DoublyLinkedNode
 
 
-class Street:
+class DoublyLinkedList:
     def __init__(self):
         self.__first = None
         self.__count = 0
@@ -23,19 +23,61 @@ class Street:
     def last(self):
         return self.__last
 
-    def add_neighbour(self, name):
+    def add_node(self, name):
         if self.is_empty():
-            self.__first = NeighbourNode(None, name, None)
+            self.__first = DoublyLinkedNode(None, name, None)
             self.__last = self.__first
         else:
             current = self.__first
             while current.next is not None:
                 current = current.next
-            current.next = NeighbourNode(current, name, None)
+            current.next = DoublyLinkedNode(current, name, None)
             self.__last = current.next
         self.__count += 1
 
-    def remove_neighbour(self, index):
+    def insert_node_after(self, name, other_node_name):
+        # TODO: implement this
+        temp = None
+
+    # TODO: stick this somewhere that makes sense
+    '''
+    Annotations:
+    
+    Type Hints:
+        This does work, but IDEs don't support it
+        # def insert_node_at_index(self, name, index: "The list's index is 1-based"):  
+    
+    Generic Annotations:
+        IDEs do NOT support generic annotation in their parameter hints,
+         generic annotation are more like metadata & can be manually accessed in Python
+        def insert_node_at_index(self, name, index_1_based: int):
+    
+    source : https://realpython.com/lessons/type-hinting/
+    source : https://www.python.org/dev/peps/pep-3107/#syntax
+    '''
+    def insert_node_at_index(self, name, index_1_based: int):
+        if not (1 <= index <= self.size):
+            return False
+
+        # TODO: what if inserting at first location?
+        # TODO: what if inserting at last location?
+
+        previous_node = None
+        desired_node = self.__first
+        for i in range(1, index):  # navigating to the specified node
+            if desired_node.next is None:  # if navigating to the specified node is impossible
+                return False
+
+            previous_node = desired_node
+            desired_node = desired_node.next
+
+        previous_node.next = DoublyLinkedNode(previous_node, name, desired_node)
+        desired_node.previous = previous_node.next
+
+        self.__count += 1
+        return True
+
+    def delete_node_at_index(self, index):
         if not (1 <= index <= self.size):
             return False
 
@@ -48,12 +90,10 @@ class Street:
             previous_node = terminating_node
             terminating_node = terminating_node.next
 
-        # what happens if the list is 1 long & you delete it's only element
-
         if terminating_node == self.__first:
             self.__first = terminating_node.next
             if self.__first is not None:
-                self.__first.previous = None  # might not work
+                self.__first.previous = None
 
         if terminating_node == self.__last:
             self.__last = terminating_node.previous

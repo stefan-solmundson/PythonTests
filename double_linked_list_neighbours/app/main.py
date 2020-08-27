@@ -1,15 +1,18 @@
-from double_linked_list_neighbours.app.street import Street
+from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
 
 
 def main():
-    main_street = Street()
-    main_street.add_neighbour("Nicola")
-    print(main_street.remove_neighbour(1))
+    # View the test document if you want to see how this class works in more detail
+    main_street = DoublyLinkedList()
+    main_street.add_node("Nicola")
+    print(main_street.delete_node_at_index(1))
 
-    main_street.add_neighbour("James")
-    main_street.add_neighbour("Craig")
-    main_street.add_neighbour("Riley")
-    main_street.add_neighbour("Danae")
+    main_street.add_node("James")
+    main_street.add_node("Craig")
+    main_street.add_node("Riley")
+    main_street.add_node("Danae")
+
+    main_street.insert_node_at_index("bob", 22)
 
     print(main_street.size)
     print(main_street)
@@ -17,7 +20,7 @@ def main():
 
     print(main_street.first.name)
     print(main_street.last.name)
-    print(main_street.remove_neighbour(5))
+    print(main_street.delete_node_at_index(5))
     print()
 
     print(main_street.size)

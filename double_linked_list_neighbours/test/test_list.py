@@ -12,7 +12,7 @@ To run a unit test navigate to the folder that contains both the
 
 import unittest
 
-from double_linked_list_neighbours.app.street import Street
+from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
 
 # https://docs.python.org/3/library/unittest.html#command-line-interface
 # python -m unittest -v
@@ -31,54 +31,69 @@ class TestList(unittest.TestCase):
     #     main_street.add_neighbour("Riley")
     #     main_street.add_neighbour("Danae")
 
-    def test_class_most(self):
-        s = Street()
-        
+    def test_entire_class(self):
+        s = DoublyLinkedList()
+
         with self.subTest("Checking a blank list"):
             self.assertEqual(s.size, 0)
             self.assertEqual(s.is_empty(), True)
-            # if self.details is True:
-            #     print(s)
-            #     print()
+            # print(s)
+            # print()
 
         with self.subTest("Trying to removing an item from a blank list"):
             self.assertEqual(s.size, 0)
-            self.assertEqual(s.remove_neighbour(0), False)
-            self.assertEqual(s.remove_neighbour(1), False)
+            self.assertEqual(s.delete_node_at_index(0), False)
+            self.assertEqual(s.delete_node_at_index(1), False)
+            # print(s)
+            # print()
 
         with self.subTest("Adding an item"):
-            s.add_neighbour("Bob")
+            s.add_node("Bob")
             self.assertEqual(s.size, 1)
+            # print(s)
+            # print()
 
         with self.subTest("Removing the only item from a list of length 1"):
-            self.assertEqual(s.remove_neighbour(1), True)
+            self.assertEqual(s.delete_node_at_index(1), True)
             self.assertEqual(s.size, 0)
+            # print(s)
+            # print()
 
         with self.subTest("Adding 2 Items & __str__"):
-            s.add_neighbour("Bob")
-            s.add_neighbour("Tom")
-            s.add_neighbour("Jane")
-            s.add_neighbour("Ray")
-            s.add_neighbour("Josh")
+            s.add_node("Bob")
+            s.add_node("Tom")
+            s.add_node("Jane")
+            s.add_node("Ray")
+            s.add_node("Josh")
             self.assertEqual(s.size, 5)
             self.assertEqual(str(s), "Bob\nTom\nJane\nRay\nJosh")
+            # print(s)
+            # print()
 
         with self.subTest("Removing a middle item"):
-            s.remove_neighbour(3)
+            s.delete_node_at_index(3)
             self.assertEqual(s.size, 4)
             self.assertEqual(str(s), "Bob\nTom\nRay\nJosh")
+            # print(s)
+            # print()
 
         with self.subTest("Removing out of index items"):
-            self.assertEqual(s.remove_neighbour(10), False)
-            self.assertEqual(s.remove_neighbour(-5), False)
+            self.assertEqual(s.delete_node_at_index(10), False)
+            self.assertEqual(s.delete_node_at_index(-5), False)
+            # print(s)
+            # print()
 
         with self.subTest("Removing last item"):
-            s.remove_neighbour(4)
+            s.delete_node_at_index(4)
             self.assertEqual(s.size, 3)
             self.assertEqual(str(s), "Bob\nTom\nRay")
+            # print(s)
+            # print()
 
         with self.subTest("Removing first item"):
-            s.remove_neighbour(1)
+            s.delete_node_at_index(1)
             self.assertEqual(s.size, 2)
             self.assertEqual(str(s), "Tom\nRay")
+            # print(s)
+            # print()
 

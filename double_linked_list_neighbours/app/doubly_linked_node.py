@@ -1,4 +1,4 @@
-class NeighbourNode:
+class DoublyLinkedNode:
     def __init__(self, _previous, name, _next):
         self.previous = _previous
         self.__name = name
