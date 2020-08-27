@@ -33,12 +33,18 @@ class TestList(unittest.TestCase):
 
     def test_class_most(self):
         s = Street()
+        
         with self.subTest("Checking a blank list"):
             self.assertEqual(s.size, 0)
             self.assertEqual(s.is_empty(), True)
             # if self.details is True:
             #     print(s)
             #     print()
+
+        with self.subTest("Trying to removing an item from a blank list"):
+            self.assertEqual(s.size, 0)
+            self.assertEqual(s.remove_neighbour(0), False)
+            self.assertEqual(s.remove_neighbour(1), False)
 
         with self.subTest("Adding an item"):
             s.add_neighbour("Bob")
