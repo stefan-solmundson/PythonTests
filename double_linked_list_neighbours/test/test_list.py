@@ -10,9 +10,18 @@ To run a unit test navigate to the folder that contains both the
     In pycharm rmb on the folder & run it
 '''
 
+import sys, os
+
+print(os.path.dirname(__file__))
+
 import unittest
+import double_linked_list_neighbours
 
 from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
+# from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
+# from app.doubly_linked_list import DoublyLinkedList
+# from app import DoublyLinkedList
+
 
 # https://docs.python.org/3/library/unittest.html#command-line-interface
 # python -m unittest -v
@@ -96,4 +105,49 @@ class TestList(unittest.TestCase):
             self.assertEqual(str(s), "Tom\nRay")
             # print(s)
             # print()
+
+        # with self.subTest("Adding a node the middle"):
+        #     s.insert_node_at_index("Brodie", 2)
+        #     print(s)
+        #     print()
+        #
+        # with self.subTest("Adding a node the middle"):
+        #     s.insert_node_at_index("Ally", 1)
+        #     print(s)
+        #     print()
+
+    def test_attributes(self):  # name: "Testing attributes & mutability"
+        s = DoublyLinkedList()
+
+        with self.subTest("size"):
+            self.assertEqual(True, hasattr(DoublyLinkedList, "size"))
+            # OR
+            # self.assertEqual(True, hasattr(DoublyLinkedList, DoublyLinkedList.size))
+            try:
+                s.size = 100
+            except AttributeError as e:
+                pass
+                # print(e)
+            self.assertNotEqual(s.size, 100)
+            self.assertEqual(s.size, 0)
+
+        with self.subTest("first"):
+            self.assertEqual(True, hasattr(DoublyLinkedList, "first"))
+            try:
+                s.first = 100
+            except AttributeError as e:
+                pass
+                # print(e)
+            self.assertNotEqual(s.first, 100)
+            self.assertEqual(s.first, None)
+
+        with self.subTest("last"):
+            self.assertEqual(True, hasattr(DoublyLinkedList, "last"))
+            try:
+                s.first = 100
+            except AttributeError as e:
+                pass
+                # print(e)
+            self.assertNotEqual(s.last, 100)
+            self.assertEqual(s.last, None)
 

@@ -56,23 +56,42 @@ class DoublyLinkedList:
     source : https://www.python.org/dev/peps/pep-3107/#syntax
     '''
     def insert_node_at_index(self, name, index_1_based: int):
-        if not (1 <= index <= self.size):
+        if not (1 <= index_1_based <= self.size+1):
             return False
 
         # TODO: what if inserting at first location?
+        # This isn't possible... :)
         # TODO: what if inserting at last location?
 
+        # insert at 1
+        # insert at 3 when 3 is the last element
+
+        # if index_1_based is 1:
+        #     self.__first.previous = DoublyLinkedNode(None, name, self.__first)
+        #     self.__first = self.__first.previous
+        # else:
         previous_node = None
-        desired_node = self.__first
-        for i in range(1, index):  # navigating to the specified node
-            if desired_node.next is None:  # if navigating to the specified node is impossible
+        insert_location_node = self.__first
+        for i in range(1, index_1_based):
+            if insert_location_node.next is None:  # if navigating to the specified node is impossible
                 return False
 
-            previous_node = desired_node
-            desired_node = desired_node.next
+            previous_node = insert_location_node
+            insert_location_node = insert_location_node.next
 
-        previous_node.next = DoublyLinkedNode(previous_node, name, desired_node)
-        desired_node.previous = previous_node.next
+        if index_1_based is 1:
+            self.__first.previous = DoublyLinkedNode(None, name, self.__first)
+            self.__first = self.__first.previous
+
+        elif index_1_based is self.__size+1:
+            insert_location_node.previous = DoublyLinkedNode(previous_node, name, insert_location_node)
+
+        else:
+            previous_node.next = insert_location_node.previous = DoublyLinkedNode(
+                previous_node,
+                name,
+                insert_location_node
+            )
 
         self.__count += 1
         return True
@@ -90,12 +109,12 @@ class DoublyLinkedList:
             previous_node = terminating_node
             terminating_node = terminating_node.next
 
-        if terminating_node == self.__first:
+        if index == 1:
             self.__first = terminating_node.next
             if self.__first is not None:
                 self.__first.previous = None
 
-        if terminating_node == self.__last:
+        if index == self.size:
             self.__last = terminating_node.previous
             if self.__last is not None:
                 self.__last.next = None
