@@ -36,14 +36,14 @@
       <recent name="C:\Users\20004338\PycharmProjects\PythonTests\animal-game\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\20004338\Documents\GitHub\PythonTests" />
       <recent name="C:\Users\20004338\PycharmProjects\PythonTests\animal_game" />
       <recent name="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree\app" />
       <recent name="C:\Users\20004338\PycharmProjects\PythonTests\binary-tree" />
       <recent name="C:\Users\20004338\PycharmProjects\PythonTests" />
-      <recent name="C:\Users\20004338\PycharmProjects\PythonTests\StackTest\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.instance_class_static_methods">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +65,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="instance_class_static_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonExamples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/double_linked_list_neighbours/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\20004338\Documents\GitHub\PythonTests\instance_class_static_methods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +99,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/double_linked_list_neighbours/app/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/double_linked_list_neighbours/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\20004338\Documents\GitHub\PythonTests\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.instance_class_static_methods" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python tests.Unittests in test_list.py" />
         <item itemvalue="Python tests.Unittests in test" />
@@ -191,25 +191,25 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1876" height="362" key="GridCell.Tab.-1.right/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597338933121" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1598847515052">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1598850280495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598847515052" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598850280495" />
     <state width="1876" height="229" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1598847515052">
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1598850280495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598847515052" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598850280495" />
     <state width="1876" height="229" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1598847515052">
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1598850280494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598847515052" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598850280494" />
     <state width="1876" height="229" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1598847515052">
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1598850280495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598847515052" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598850280495" />
     <state width="1876" height="229" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1597341596640" />
     <state width="1592" height="346" key="GridCell.Tab.1.bottom" timestamp="1598497704835">
       <screen x="0" y="0" width="1920" height="1040" />

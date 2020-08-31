@@ -1,10 +1,13 @@
 '''
-static classes don't exist in Python
-instance methods = normal
-static method = @staticmethod
-class method = @classmethod
- class methods have a very specific use case as alternate constructors for a class (see below)
- remember that classes are objects too
+Instance, Class, Static Methods
+
+- static classes don't exist in Python
+
+- instance method = normal
+- static method = @staticmethod
+- class method = @classmethod
+   class methods have a very specific use case as alternate constructors for a class (see below)
+   remember that classes are objects too
 '''
 
 from datetime import date
@@ -24,6 +27,13 @@ class MyClass:
 
 
 my_obj = MyClass()
+print("Instance Method")
+print(my_obj.method())
+print("Static Method")
+print(my_obj.static_method())
+print("Class Method")
+print(my_obj.class_method())
+print()
 
 #
 #
@@ -32,8 +42,7 @@ my_obj = MyClass()
 
 
 class Person:
-    age = "11"
-    bool_test = 11
+    standard_age = 11
 
     def __init__(self, name, age):
         self.name = name
@@ -43,61 +52,64 @@ class Person:
 
     @classmethod
     def from_birth_year(cls, name, year):
-        bool_test = 22
-        age = "22"
         return cls(name, date.today().year - year)
 
-        # a static method to check if a Person is adult or not.
-
+    # a static method to check if a Person is adult or not.
     @staticmethod
     def is_adult(age):
         return age > 18
 
     @classmethod
-    def bool_test(cls):
-        return str.format("x is {}", cls.bool_test)
-
-    # @classmethod
-    def print_age(cls):
-        return cls.age
-
-    def print_age_add_1(cls):
-        cls.age += 1
-        return "1 added"
+    def print_standard_age(cls):
+        print(cls.standard_age)
 
     @classmethod
-    def print_age2(cls):
-        print(cls.age)
+    def return_standard_age(cls):
+        return cls.standard_age
 
-    # def print_age(cls):
-    #     return cls.age
+    @classmethod
+    def print_standard_age_add_1(cls):
+        cls.standard_age += 1
+        print("added 1 to standard age")
 
 
 person1 = Person('Bob', 21)
 person2 = Person.from_birth_year('Bob', 1996)
 
+print("1-1. instance .age attribute")
 print(person1.age)
 print(person2.age)
-print(person1.bool_test())
-print("f")
-print(person2.bool_test())
+print()
 
-# --
+print("1-2. @staticmethod is_adult")
+print(Person.is_adult(21))
+print(person1.is_adult(21))
+print(person2.is_adult(21))
+print()
 
-print(person1.print_age())
-print(person2.print_age())
+print("2-1. print_standard_age")
+person1.print_standard_age()
+person2.print_standard_age()
+person1.print_standard_age_add_1()
+person1.print_standard_age()
+person2.print_standard_age()
+print()
 
-print(person1.print_age_add_1())
+print("2-2. return standard_age")
+print(person2.return_standard_age())
+print(person1.return_standard_age())
+person2.print_standard_age_add_1()
+print(person2.return_standard_age())
+print(person1.return_standard_age())
+print()
 
-print(Person.print_age)
-
-print(person1.print_age())
-print(person2.print_age())
-# print(Person.print_age(person1))
-# print(Person.print_age(person2))
-
-# print the result
-# print(Person.is_adult(22))
+print("2-3. Person.standard_age")
+print(Person.standard_age)
+print(Person.standard_age)
+person1.print_standard_age_add_1()
+print(Person.standard_age)
+print(Person.standard_age)
+print()
 
 #
 #
