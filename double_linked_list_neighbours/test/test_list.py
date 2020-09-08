@@ -106,16 +106,6 @@ class TestList(unittest.TestCase):
             # print(s)
             # print()
 
-        # with self.subTest("Adding a node the middle"):
-        #     s.insert_node_at_index("Brodie", 2)
-        #     print(s)
-        #     print()
-        #
-        # with self.subTest("Adding a node the middle"):
-        #     s.insert_node_at_index("Ally", 1)
-        #     print(s)
-        #     print()
-
     def test_attributes(self):  # name: "Testing attributes & mutability"
         s = DoublyLinkedList()
 
@@ -150,4 +140,133 @@ class TestList(unittest.TestCase):
                 # print(e)
             self.assertNotEqual(s.last, 100)
             self.assertEqual(s.last, None)
+
+    def test_insert_node_at_index(self):
+        s = DoublyLinkedList()
+
+        self.assertEqual(s.insert_node_at_index("Ted", -1), False)
+        self.assertEqual(s.insert_node_at_index("Ted", 0), False)
+        self.assertEqual(s.insert_node_at_index("Ted", 0.5), False)
+        self.assertEqual(s.insert_node_at_index("Ted", 3), False)
+        self.assertEqual(s.size, 0)
+
+        self.assertEqual(s.insert_node_at_index("Ted", 1), True)
+        self.assertEqual(s.size, 1)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.insert_node_at_index("Gabe", 1), True)
+        self.assertEqual(s.size, 2)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.insert_node_at_index("Allen", 2), True)
+        self.assertEqual(s.size, 3)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.insert_node_at_index("Brodie", 4), True)
+        self.assertEqual(s.size, 4)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.insert_node_at_index("Ned", 7), False)
+
+    def test_insert_node_after(self):
+        s = DoublyLinkedList()
+
+        s.add_node("Bob")
+        s.add_node("Ruth")
+        self.assertEqual(s.size, 2)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.insert_node_after("Jane", "Norman"), False)
+        self.assertEqual(s.size, 2)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.insert_node_after("Jane", "Bob"), True)
+        self.assertEqual(s.size, 3)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.insert_node_after("Dillon", "Ruth"), True)
+        self.assertEqual(s.size, 4)
+        # print(s)
+        # print()
+
+    def test_redefine_node(self):
+        s = DoublyLinkedList()
+
+        self.assertEqual(s.redefine_node("Bob", "Newer Bob"), False)
+
+        s.add_node("Bob")
+        self.assertEqual(s.size, 1)
+        print(s)
+        print()
+
+        self.assertEqual(s.redefine_node("Bob", "Newer Bob"), True)
+        self.assertEqual(s.size, 1)
+        print(s)
+        print()
+
+        self.assertEqual(s.redefine_node("Newer Bob", "Newest Bob"), True)
+        self.assertEqual(s.size, 1)
+        print(s)
+        print()
+
+        s.add_node("Tim")
+        self.assertEqual(s.size, 2)
+        # print(s)
+        # print()
+
+        self.assertEqual(s.redefine_node("Tim", "Jane"), True)
+        self.assertEqual(s.size, 2)
+        # print(s)
+        # print()
+
+    def test_delete_node(self):
+        s = DoublyLinkedList()
+
+        # Cannot delete from an empty list
+        self.assertEqual(s.delete_node("Bob"), False)
+
+        s.add_node("Bob")
+        s.add_node("Jane")
+        s.add_node("Cody")
+        s.add_node("Ruth")
+        self.assertEqual(s.size, 4)
+        # print(s)
+        # print()
+
+        # Cannot delete using the wrong name
+        self.assertEqual(s.delete_node("Wrong Name"), False)
+
+        # Delete First Link
+        self.assertEqual(s.delete_node("Bob"), True)
+        self.assertEqual(s.size, 3)
+        # print(s)
+        # print()
+
+        # Delete Middle Link
+        self.assertEqual(s.delete_node("Cody"), True)
+        self.assertEqual(s.size, 2)
+        # print(s)
+        # print()
+
+        # Delete Last Link
+        self.assertEqual(s.delete_node("Ruth"), True)
+        self.assertEqual(s.size, 1)
+        # print(s)
+        # print()
+
+        # Delete Only Remaining Link
+        self.assertEqual(s.delete_node("Jane"), True)
+        self.assertEqual(s.size, 0)
+
+
+
+
+
 
