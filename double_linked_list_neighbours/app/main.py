@@ -26,6 +26,9 @@ def main():
     print(main_street.size)
     print(main_street)
 
+    import os
+    print(os.path.abspath(__file__))
+
 
 if __name__ == '__main__':
     main()

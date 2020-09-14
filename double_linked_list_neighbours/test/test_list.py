@@ -12,16 +12,19 @@ To run a unit test navigate to the folder that contains both the
 
 import sys, os
 
-print(os.path.dirname(__file__))
+# print(os.path.dirname(__file__))
+# print(os.path.abspath(__file__))
 
 import unittest
-import double_linked_list_neighbours
+
+# # temp fix
+# from .context import app
+# from app import *
+# from app.doubly_linked_list import DoublyLinkedList
+# # END temp fix
 
 from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
-# from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
 # from app.doubly_linked_list import DoublyLinkedList
-# from app import DoublyLinkedList
-
 
 # https://docs.python.org/3/library/unittest.html#command-line-interface
 # python -m unittest -v
@@ -203,18 +206,18 @@ class TestList(unittest.TestCase):
 
         s.add_node("Bob")
         self.assertEqual(s.size, 1)
-        print(s)
-        print()
+        # print(s)
+        # print()
 
         self.assertEqual(s.redefine_node("Bob", "Newer Bob"), True)
         self.assertEqual(s.size, 1)
-        print(s)
-        print()
+        # print(s)
+        # print()
 
         self.assertEqual(s.redefine_node("Newer Bob", "Newest Bob"), True)
         self.assertEqual(s.size, 1)
-        print(s)
-        print()
+        # print(s)
+        # print()
 
         s.add_node("Tim")
         self.assertEqual(s.size, 2)
