@@ -1,3 +1,5 @@
+
+
 import csv
 
 with open(r"chess-players.csv", mode='r', newline='', encoding='utf-8') as csvfile:

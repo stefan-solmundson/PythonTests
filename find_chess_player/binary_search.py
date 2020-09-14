@@ -1,4 +1,3 @@
-print("f")
 '''
 1. Sort the array
 2. Binary search through the array
