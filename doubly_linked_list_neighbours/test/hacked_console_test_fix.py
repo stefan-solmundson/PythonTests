@@ -10,7 +10,7 @@ containing:
 
 in each test change the class imports
 from:
-    from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
+    from doubly_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
 to:
     # temp fix
     from .context import app
@@ -20,7 +20,7 @@ to:
 
 in app change the imports
 from:
-    from double_linked_list_neighbours.app.doubly_linked_node import DoublyLinkedNode
+    from doubly_linked_list_neighbours.app.doubly_linked_node import DoublyLinkedNode
 to:
     from app.doubly_linked_node import DoublyLinkedNode
 

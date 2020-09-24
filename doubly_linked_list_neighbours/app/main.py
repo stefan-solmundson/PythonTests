@@ -1,4 +1,4 @@
-from double_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
+from doubly_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
 
 
 def main():
