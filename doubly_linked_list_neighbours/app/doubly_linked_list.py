@@ -1,4 +1,4 @@
-from doubly_linked_list_neighbours.app.doubly_linked_node import DoublyLinkedNode
+from app.doubly_linked_node import DoublyLinkedNode
 # from app.doubly_linked_node import DoublyLinkedNode
 
 
@@ -150,7 +150,7 @@ class DoublyLinkedList:
         if self.__size == 0:
             self.__first = self.__last = DoublyLinkedNode(None, name, None)
 
-        elif index_1_based is 1:
+        elif index_1_based == 1:
             self.__first.previous = DoublyLinkedNode(None, name, self.__first)
             self.__first = self.__first.previous
 

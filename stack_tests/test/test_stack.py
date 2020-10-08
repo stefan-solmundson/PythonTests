@@ -11,7 +11,7 @@ To run a unit test navigate to the folder that contains both the
 '''
 
 import unittest
-from stack_tests.app.stack import Stack
+from app.stack import Stack
 # OR
 # from ..app.stack import Stack
 

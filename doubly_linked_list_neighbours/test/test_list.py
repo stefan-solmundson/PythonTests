@@ -23,7 +23,7 @@ import unittest
 # from app.doubly_linked_list import DoublyLinkedList
 # # END temp fix
 
-from doubly_linked_list_neighbours.app.doubly_linked_list import DoublyLinkedList
+from app.doubly_linked_list import DoublyLinkedList
 # from app.doubly_linked_list import DoublyLinkedList
 
 # https://docs.python.org/3/library/unittest.html#command-line-interface
